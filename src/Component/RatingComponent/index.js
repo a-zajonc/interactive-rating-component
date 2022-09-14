@@ -6,7 +6,7 @@ import { RatingScale } from "./RatingScale";
 import { SubmitButton } from "./SubmitButton";
 
 export function RatingComponent() {
-    return <Box>
+    return <Box bgColor="#252D37">
         <Star />
         <Header />
         <RatingText />
