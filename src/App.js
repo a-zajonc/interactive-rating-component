@@ -1,10 +1,9 @@
 import { ChakraProvider } from '@chakra-ui/react'
+import { RatingComponent } from './Component/RatingComponent';
 
 function App() {
   return <ChakraProvider>
-    <div className="App">
-      Hello
-    </div>
+    <RatingComponent />
   </ChakraProvider>
 }
 
