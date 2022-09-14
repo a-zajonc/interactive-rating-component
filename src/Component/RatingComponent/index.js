@@ -6,7 +6,7 @@ import { RatingScale } from "./RatingScale";
 import { SubmitButton } from "./SubmitButton";
 
 export function RatingComponent() {
-    return <Container display="grid" alignItems="center" bgColor='#19202a' height="400px" width="350px" borderRadius="20px">
+    return <Container display="grid" alignItems="center" bgColor='#19202a' height="400px" width="350px" borderRadius="20px" p="20px">
         <Star />
         <Header />
         <RatingText />
