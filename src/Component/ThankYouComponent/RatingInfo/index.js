@@ -1,7 +1,10 @@
-import { Text } from "@chakra-ui/react"
+import { Text, Container } from "@chakra-ui/react";
 
-export function RatingInfo() {
-    return <Text color="#FB7413" bgColor="#272e38" paddingBlock="4px" paddingInline="12px" borderRadius="20px" fontFamily="Overpass" fontWeight="400" fontSize="15px">
-        You selected 4 out of 5!
-    </Text>
+export function RatingInfo({ rate }) {
+    console.log()
+    return <Container bgColor="#272e38" borderRadius="20px" width="fit-content" paddingBlock="4px" paddingInline="20px">
+        <Text color="#FB7413" fontFamily="Overpass" fontWeight="400" fontSize="15px">
+            You selected {rate} out of 5!
+        </Text>
+    </Container>
 }
