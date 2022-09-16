@@ -11,7 +11,7 @@ function App() {
   return <ChakraProvider>
     <Box bgColor="#121417" height="100vh" display='flex' justifyContent='center' alignItems='center'>
       <Routes>
-        <Route exact path="/" element={<RatingComponent rate={rate} setRate={setRate} />} />
+        <Route exact path="" element={<RatingComponent rate={rate} setRate={setRate} />} />
         <Route exact path="/thankyou" element={<ThankYouComponent rate={rate} />} />
       </Routes>
     </Box>
