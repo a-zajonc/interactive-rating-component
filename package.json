@@ -2,7 +2,7 @@
   "name": "interactive-rating-component",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://a-zajonc.github.io/interactive-rating-component",
+  "homepage": "https://a-zajonc.github.io/interactive-rating-component/",
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
     "@emotion/react": "^11.10.4",
