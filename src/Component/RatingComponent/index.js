@@ -11,6 +11,6 @@ export function RatingComponent({ rate, setRate }) {
         <Header />
         <RatingText />
         <RatingScale rate={rate} setRate={setRate} />
-        <SubmitButton />
+        <SubmitButton rate={rate} />
     </Container>
 }
